@@ -1,0 +1,114 @@
+Graphe coauthor_graph.graphml: |V|=48388, |E|=295382
+Cache chargé: /Users/pierrenicoulaud/Library/CloudStorage/OneDrive-EcolePolytechnique/SCOLAIRE/2A/P3/MODAL/MODAL/author_data_maps_cache.json
+
+============================================================
+Co-auteurs
+|V|=48388, |E|=590764, densité=0.000252
+============================================================
+
+[Degrés]
+in-degree: min=0, mean=12.2089, max=561
+out-degree: min=0, mean=12.2089, max=561
+in-degree pondéré: mean=12.9669, max=576
+
+Top in-degree (10):
+ - Aleksandra Piktus: 561
+ - Eric Sigler: 467
+ - Ma-teusz Litwin: 467
+ - I. Sutskever: 450
+ - Hee-woo Jun: 398
+ - Henrique Pondé: 398
+ - O. Pinto: 398
+ - Greg Brockman: 398
+ - Michael Petrov: 398
+ - Josh Achiam: 347
+
+[Communautés]
+Louvain: nb=6873, modularité=0.9490, singletons=16
+Top tailles: [816, 595, 589, 547, 524, 466, 386, 382, 332, 322]
+ - C1 (taille=816): Shuaiqiang Wang (163), Xueqi Cheng (100), Dawei Yin (77), Yiqun Chen (74), Yixing Fan (69)
+ - C2 (taille=595): Yukun Yan (250), Shuo Wang (183), Zhiyuan Liu (139), Zhenghao Liu (128), Shi Yu (121)
+ - C3 (taille=589): Feiyu Xiong (194), Zhiyu Li (170), Bo Tang (162), Simin Niu (114), Shichao Song (113)
+ - C4 (taille=547): Ryan A. Rossi (106), Haoyu Han (83), Franck Dernoncourt (76), M. Halappanavar (70), Shenglai Zeng (58)
+ - C5 (taille=524): Patrick Lewis (352), Ethan Perez (352), Benjamin Mann (279), N. Ryder (279), Daniel M. Ziegler (279)
+
+[Ground truth — pureté par discipline]
+Meilleure: « geology » (pureté=0.9996, support=98/48388)
+Pureté moyenne pondérée (fields): 0.9761
+Pureté moyenne pondérée (fields, sans singletons, n=48372): 0.9761
+ - geology: pureté=0.9996 (support=98, hors=48290)
+ - sociology: pureté=0.9994 (support=180, hors=48208)
+ - philosophy: pureté=0.9992 (support=77, hors=48311)
+ - materials science: pureté=0.9989 (support=292, hors=48096)
+ - history: pureté=0.9985 (support=167, hors=48221)
+ - art: pureté=0.9984 (support=233, hors=48155)
+ - economics: pureté=0.9981 (support=237, hors=48151)
+ - physics: pureté=0.9980 (support=539, hors=47849)
+ - geography: pureté=0.9978 (support=318, hors=48070)
+ - agricultural and food sciences: pureté=0.9975 (support=501, hors=47887)
+ - political science: pureté=0.9968 (support=426, hors=47962)
+ - psychology: pureté=0.9962 (support=660, hors=47728)
+ - mathematics: pureté=0.9956 (support=506, hors=47882)
+ - chemistry: pureté=0.9943 (support=520, hors=47868)
+ - biology: pureté=0.9940 (support=1049, hors=47339)
+
+[Ground truth — pureté par venue]
+Meilleure: « annual international conference of the ieee engineering in medicine and biology society » (pureté=1.0000, support=38/48388)
+Pureté moyenne pondérée (venue): 0.9667
+Pureté moyenne pondérée (venue, sans singletons, n=48372): 0.9666
+ - annual international conference of the ieee engineering in medicine and biology society: pureté=1.0000 (support=38, hors=48350)
+ - international conference on information technology: pureté=1.0000 (support=31, hors=48357)
+ - international journal for multidisciplinary research: pureté=1.0000 (support=30, hors=48358)
+ - journal of biomedical semantics: pureté=1.0000 (support=30, hors=48358)
+ - international journal of advanced research in science, communication and technology: pureté=1.0000 (support=29, hors=48359)
+ - 2025 9th international conference on computational system and information technology for sustainable solutions (csitss): pureté=1.0000 (support=28, hors=48360)
+ - frontiers in digital health: pureté=1.0000 (support=27, hors=48361)
+ - journal of hematology & oncology: pureté=1.0000 (support=27, hors=48361)
+ - 2026 ieee international conference on interdisciplinary approaches in technology and management for social innovation (iatmsi): pureté=1.0000 (support=26, hors=48362)
+ - international conference on computer, control, informatics and its applications: pureté=1.0000 (support=25, hors=48363)
+ - international conference on data and software engineering: pureté=1.0000 (support=25, hors=48363)
+ - international research journal on advanced engineering hub (irjaeh): pureté=1.0000 (support=25, hors=48363)
+ - sn computer science: pureté=1.0000 (support=25, hors=48363)
+ - acs nano: pureté=1.0000 (support=24, hors=48364)
+ - european heart journal - digital health: pureté=1.0000 (support=23, hors=48365)
+
+[Centralités]
+In-degree centrality: max=0.0116, mean=0.0003
+Out-degree centrality: max=0.0116, mean=0.0003
+PageRank: max=0.0002, mean=0.0000
+Top PageRank:
+ - Shuaiqiang Wang: 0.000163
+ - Wen-tau Yih: 0.000140
+ - Yukun Yan: 0.000134
+ - Feiyu Xiong: 0.000120
+ - Arman Cohan: 0.000118
+ - D. Niyato: 0.000112
+ - Ryan A. Rossi: 0.000108
+ - Ruichen Zhang: 0.000104
+ - Xueqi Cheng: 0.000102
+ - Shuo Wang: 0.000099
+Top authorities (HITS):
+ - Ma-teusz Litwin: 0.003296
+ - Eric Sigler: 0.003296
+ - Hee-woo Jun: 0.003287
+ - Henrique Pondé: 0.003287
+ - Greg Brockman: 0.003287
+ - O. Pinto: 0.003287
+ - Michael Petrov: 0.003287
+ - I. Sutskever: 0.003276
+ - Josh Achiam: 0.003228
+ - S. Altman: 0.003227
+
+[Corrélations de Pearson]
+ - size vs union_paper_count: r=0.944348, p=0.000000, n=6873
+ - size vs field_of_study_purity: r=0.015432, p=0.200814, n=6873
+ - field_of_study_purity vs union_paper_count: r=0.011792, p=0.328324, n=6873
+ - field_of_study_purity vs publication_venue_purity: r=-0.040613, p=0.000758, n=6873
+ - size vs publication_venue_purity: r=-0.143046, p=0.000000, n=6873
+ - size vs citation_count_mean: r=0.107619, p=0.000000, n=6873
+ - union_paper_count vs citation_count_mean: r=0.092470, p=0.000000, n=6873
+ - field_of_study_purity vs citation_count_mean: r=0.024368, p=0.043369, n=6873
+ - publication_venue_purity vs citation_count_mean: r=-0.022410, p=0.063200, n=6873
+ - field_of_study_purity vs mean_authors_per_paper: r=0.051710, p=0.000018, n=6873
+
+============================================================

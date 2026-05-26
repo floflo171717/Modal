@@ -1,0 +1,14 @@
+# Fichiers de données volumineux (hors GitHub)
+lens-export.csv
+papers_array.json
+author_hindex_cache.json
+author_citation_count_cache.json
+author_data_maps_cache.json
+coauthor_graph.graphml
+*.pyc
+__pycache__/
+.DS_Store
+src/
+brouillon.py
+testauteurs.py
+_verify_papers.py

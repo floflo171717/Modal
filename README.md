@@ -83,12 +83,6 @@ Dans `graphe_common/builders.py`, le paramètre `edge_source` contrôle le sens 
 
 Les points d'entrée `graphe_papiers_citations` et `graphe_auteurs_citations` utilisent actuellement `citations`. Pour une variante `references`, appeler `run_paper_citation_main` / `run_author_citation_main` depuis `graphe_common.cli` avec un `CitationGraphSpec` adapté.
 
-## Tests unitaires
-
-```bash
-python -m unittest graphe_common.test_inferential -v
-python -m unittest graphe_common.test_disruption -v
-```
 
 ## Analyses complémentaires
 

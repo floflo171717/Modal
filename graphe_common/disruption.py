@@ -77,7 +77,7 @@ def _link_ids(paper: dict[str, Any], field: str) -> set[str]:
 
 def _disruption(citers: set[str], ref_citers: set[str]) -> float | None:
     nj = sum(c in ref_citers for c in citers)
-    total = len(citers) + len(ref_citers - citers) - nj
+    total = len(citers) + len(ref_citers - citers)
     return None if not total else (len(citers) - 2 * nj) / total
 
 
